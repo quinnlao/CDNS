@@ -1,28 +1,21 @@
-<svg viewBox="24 18 320 315" xmlns="http://www.w3.org/2000/svg" fill="none">
-    <defs>
-        <linearGradient id="tableGradient" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#d1e7ff" />
-            <stop offset="100%" stop-color="#92c0f5" />
-        </linearGradient>
-        <linearGradient id="arrowGradient" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="#ffa726" />
-            <stop offset="100%" stop-color="#fb8c00" />
-        </linearGradient>
-        <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
-            <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.25" />
-        </filter>
-    </defs>
+<svg viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect x="0" y="0" width="320" height="320" rx="64" ry="64" fill="#dbe7fd"/>
 
-    <!-- 表格背景（更大、更居中） -->
-    <rect x="70" y="60" width="230" height="230" rx="16" fill="url(#tableGradient)" stroke="#5b9bd5" stroke-width="4" filter="url(#shadow)" />
+    <!-- 表格主体放大 -->
+    <rect x="50" y="50" width="220" height="220" rx="16" fill="#4f86f7"/>
 
-    <!-- 表格线条（等分） -->
-    <line x1="70" y1="137" x2="300" y2="137" stroke="#5b9bd5" stroke-width="3" />
-    <line x1="70" y1="214" x2="300" y2="214" stroke="#5b9bd5" stroke-width="3" />
-    <line x1="147" y1="60" x2="147" y2="290" stroke="#5b9bd5" stroke-width="3" />
-    <line x1="224" y1="60" x2="224" y2="290" stroke="#5b9bd5" stroke-width="3" />
+    <!-- 横线（两条） -->
+    <line x1="50" y1="120" x2="270" y2="120" stroke="white" stroke-width="10"/>
+    <line x1="50" y1="190" x2="270" y2="190" stroke="white" stroke-width="10"/>
 
-    <!-- 放大后的导出箭头 -->
-    <path d="M230 120 L320 30" stroke="url(#arrowGradient)" stroke-width="10" stroke-linecap="round" />
-    <polyline points="320,30 280,30 280,70" fill="none" stroke="url(#arrowGradient)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- 竖线（两条） -->
+    <line x1="120" y1="50" x2="120" y2="270" stroke="white" stroke-width="10"/>
+    <line x1="190" y1="50" x2="190" y2="270" stroke="white" stroke-width="10"/>
+
+    <!-- 上方导入箭头 -->
+    <path d="M160 16 L140 48 H150 V90 H170 V48 H180 Z" fill="#34c759"/>
+
+    <!-- 下方导出箭头 -->
+    <path d="M160 304 L180 272 H170 V230 H150 V272 H140 Z" fill="#ff3b30"/>
 </svg>
