@@ -13,16 +13,16 @@
         </filter>
     </defs>
 
-    <!-- 表格背景，居中 -->
-    <rect x="90" y="80" width="200" height="200" rx="12" fill="url(#tableGradient)" stroke="#5b9bd5" stroke-width="4" filter="url(#shadow)" />
+    <!-- 表格背景（更大、更居中） -->
+    <rect x="70" y="60" width="230" height="230" rx="16" fill="url(#tableGradient)" stroke="#5b9bd5" stroke-width="4" filter="url(#shadow)" />
 
-    <!-- 表格线条 -->
-    <line x1="90" y1="147" x2="290" y2="147" stroke="#5b9bd5" stroke-width="3" />
-    <line x1="90" y1="214" x2="290" y2="214" stroke="#5b9bd5" stroke-width="3" />
-    <line x1="157" y1="80" x2="157" y2="280" stroke="#5b9bd5" stroke-width="3" />
-    <line x1="224" y1="80" x2="224" y2="280" stroke="#5b9bd5" stroke-width="3" />
+    <!-- 表格线条（等分） -->
+    <line x1="70" y1="137" x2="300" y2="137" stroke="#5b9bd5" stroke-width="3" />
+    <line x1="70" y1="214" x2="300" y2="214" stroke="#5b9bd5" stroke-width="3" />
+    <line x1="147" y1="60" x2="147" y2="290" stroke="#5b9bd5" stroke-width="3" />
+    <line x1="224" y1="60" x2="224" y2="290" stroke="#5b9bd5" stroke-width="3" />
 
-    <!-- 导出箭头（橙色，右上角） -->
-    <path d="M230 130 L305 55" stroke="url(#arrowGradient)" stroke-width="8" stroke-linecap="round" />
-    <polyline points="305,55 275,55 275,85" fill="none" stroke="url(#arrowGradient)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- 放大后的导出箭头 -->
+    <path d="M230 120 L320 30" stroke="url(#arrowGradient)" stroke-width="10" stroke-linecap="round" />
+    <polyline points="320,30 280,30 280,70" fill="none" stroke="url(#arrowGradient)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
 </svg>
