@@ -1,0 +1,17 @@
+<svg viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景：微蓝，清爽不喧宾夺主 -->
+    <rect x="0" y="0" width="320" height="320" rx="64" fill="#e0f0ff"/>
+
+    <!-- 应用格子图标，共9个 -->
+    <rect x="70" y="70" width="40" height="40" rx="8" fill="#4f86f7"/>
+    <rect x="140" y="70" width="40" height="40" rx="8" fill="#34c759"/>
+    <rect x="210" y="70" width="40" height="40" rx="8" fill="#ff3b30"/>
+
+    <rect x="70" y="140" width="40" height="40" rx="8" fill="#ffcc00"/>
+    <rect x="140" y="140" width="40" height="40" rx="8" fill="#9b59b6"/>
+    <rect x="210" y="140" width="40" height="40" rx="8" fill="#5ac8fa"/>
+
+    <rect x="70" y="210" width="40" height="40" rx="8" fill="#f39c12"/>
+    <rect x="140" y="210" width="40" height="40" rx="8" fill="#2ecc71"/>
+    <rect x="210" y="210" width="40" height="40" rx="8" fill="#e74c3c"/>
+</svg>
